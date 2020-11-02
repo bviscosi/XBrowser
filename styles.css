@@ -1,0 +1,28 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+}
+
+#banner {
+  color: white;
+  background-color: black;
+  border: 1px solid #2b2b2b;
+  padding: 10px 10px;
+}
+#body {
+  margin: 0;
+  background: blue;
+}
+
+#sidebar {
+  position: absolute;
+  margin: 0px;
+  padding: 10px;
+  color: white;
+  width: 200px;
+  height: 100%;
+}
+#sidebar ul li {
+  list-style: none;
+  padding: 15px 10px;
+}
