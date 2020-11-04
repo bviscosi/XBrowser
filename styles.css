@@ -45,27 +45,27 @@ nav.nav-wrapper ul li a:hover {
 
 .box {
   position: absolute;
-  top: 80%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-  width: 900px;
+  width: 70%;
   display: grid;
-  grid-template-columns: 30% 70%;
-  grid-row-gap: 75px;
-  padding-top: 100px;
+  grid-template-columns: 1fr 3fr;
+  grid-row-gap: 50px;
+  grid-column-gap: 50px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 50px;
 }
 .box .imgBx {
-  width: 300px;
+  height: auto;
+  width: auto;
 }
 .box .imgBx img {
   max-width: 100%;
+  border-radius: 50%;
 }
 
 .box .content {
-  padding: 20px;
 }
 
 .box .content h2 {
   margin: 0;
-  padding: 30;
 }
