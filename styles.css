@@ -111,6 +111,10 @@ li.nav-item {
   font-size: 18px;
 }
 
+.content h4 {
+  padding-top: 15px;
+}
+
 #logo {
   border-radius: 10px;
 }
@@ -147,8 +151,4 @@ li.nav-item {
 .links li a {
   padding: 10px;
   font-size: 20px;
-}
-
-.box .content h2 {
-  margin: 0;
 }
