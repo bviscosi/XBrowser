@@ -115,10 +115,6 @@ li.nav-item {
   margin: auto;
 }
 
-.box .content h2 {
-  margin: 0;
-}
-
 .box {
   position: absolute;
   width: 30%;
@@ -130,8 +126,4 @@ li.nav-item {
   margin-left: 20px;
   margin-bottom: 50px;
   align-items: center;
-}
-
-.box .content h2 {
-  margin: 0;
 }
