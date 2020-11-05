@@ -105,6 +105,12 @@ li.nav-item {
   );
 }
 
+.content p {
+  padding: 10px;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
 #logo {
   border-radius: 10px;
 }

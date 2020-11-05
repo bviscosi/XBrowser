@@ -125,3 +125,6 @@ li.nav-item {
   margin-bottom: 50px;
   align-items: center;
 }
+.box a {
+  font-size: 24px;
+}
