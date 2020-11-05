@@ -10,10 +10,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-#underline{
+#underline {
   border: 1px dashed black;
 }
-#underline2{
+#underline2 {
   border: 2px solid black;
 }
 
@@ -52,7 +52,6 @@ nav.nav-wrapper ul li a:hover {
   border-bottom: 1px solid #ffffff;
 }
 
-
 .box {
   position: absolute;
   width: 70%;
@@ -73,47 +72,61 @@ nav.nav-wrapper ul li a:hover {
   border-radius: 50%;
 }
 
-
-
-#helping{
-  margin-bottom: 10px;;
+#helping {
+  margin-bottom: 10px;
   margin-right: 10px;
 }
 
-li.nav-item{
+li.nav-item {
   font-size: 24px;
   margin-right: 15px;
 }
-.navbar-nav a:hover{
+.navbar-nav a:hover {
   color: red;
 }
 
-.nav-link{
+.nav-link {
   text-align: center;
-  font-family: cursive;
 }
 
-.dropdown-menu{
+.dropdown-menu {
   background-color: gray;
   font-family: cursive;
 }
 
-
-.content{
+.content {
   border-radius: 10px;
   text-align: center;
   margin: auto;
-  background-image: linear-gradient(to top left, rgba(255,0,0,0), rgb(33, 30, 30));
+  background-image: linear-gradient(
+    to top left,
+    rgba(255, 0, 0, 0),
+    rgb(33, 30, 30)
+  );
 }
 
-#logo{
+#logo {
   border-radius: 10px;
 }
 
-
-#helper{
-  padding-top: 30px;;
+#helper {
+  padding-top: 30px;
   margin: auto;
+}
+
+.homePage {
+  margin-top: 75px;
+}
+
+#title {
+  padding-bottom: 20px;
+  margin-top: 75px;
+  text-align: center;
+}
+#bd {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 20px;
 }
 
 .box .content h2 {
