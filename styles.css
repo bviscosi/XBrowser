@@ -22,20 +22,23 @@ header {
   background: black;
 }
 
+.navbar {
+  height: 80px;
+}
+
 .box {
-  position: absolute;
-  width: 70%;
+  max-width: 70vw;
+  margin: 50px auto;
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-row-gap: 50px;
-  grid-column-gap: 50px;
-  margin-top: 50px;
-  margin-left: 20px;
-  margin-bottom: 50px;
+  grid-row-gap: 5rem;
+  grid-column-gap: 2rem;
 }
 .box .imgBx {
   height: auto;
   width: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .box .imgBx img {
   max-width: 100%;
@@ -102,17 +105,40 @@ li.nav-item {
   font-size: 20px;
 }
 
-.links {
-  text-align: left;
+.link {
   color: white;
-  .transition: 0.3;
+  position: relative;
+  text-decoration: none;
 }
 
-.links:hover .links li {
-  padding: 10px;
+.link::after {
+  content: "";
+  position: absolute;
+  bottom: -0.15em;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  min-height: 1px;
+  background-color: currentColor;
+  transform-origin: center;
+  transition: transform 0.25s ease;
 }
 
-.links li a {
-  padding: 10px;
-  font-size: 20px;
+.link:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link:hover::after {
+  transform: scaleX(0);
+  transition: transform 0.25s ease;
+}
+
+.link:active {
+  color: #7289da;
+}
+
+.links > li {
+  padding-top: 0.5rem;
+  list-style: none;
 }
