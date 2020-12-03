@@ -4,10 +4,10 @@
   padding: 0;
 }
 
-body {
+body,html {
   background-color: gray;
-  line-height: 1;
   font-family: "Roboto", sans-serif;
+  height: auto;
 }
 
 /* #underline {
@@ -22,9 +22,7 @@ header {
   background: black;
 }
 
-.navbar {
-  height: 80px;
-}
+
 
 .box {
   max-width: 70vw;
